@@ -4,3 +4,26 @@
     box-sizing: border-box;
     overflow: hidden;
 }
+.mainNav{
+    position: fixed;
+    width: 100%;
+    justify-content: space-around !important;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+.logo{
+    width: 150px;
+}
+.bookbtn{
+    background-color: transparent;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    color: white;
+    border: solid 2px white;
+}
+.bookbtn:hover{
+    color: white;
+    border:solid 2px rgb(255, 136, 0);
+    background-color: rgb(255, 136, 0);
+}
