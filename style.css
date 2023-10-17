@@ -42,3 +42,25 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
+@media screen and (max-width:1024px){
+    .mainNav{
+        padding: 10px !important;
+        justify-content: space-between !important;
+    }
+    .bookbtn{
+        background-color: transparent;
+        padding: 7px 15px;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .sec1{
+        background-image: url(asset/vintage-stoneberry.jpg);
+    }
+    .logo{
+        width: 100px;
+    }
+    .menus{
+        display: none !important;
+    }
+}
