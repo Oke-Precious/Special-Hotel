@@ -30,6 +30,9 @@ body{
     color: white;
     border: solid 2px white;
 }
+.menus p{
+    margin: 0 !important;
+}
 .menus p:hover{
     transition: 300ms;
     color: orange;
@@ -52,6 +55,26 @@ body{
     height: 100vh;
     background-repeat: no-repeat;
     background-size: 100%;
+}
+.overlayOffcanvas{
+    display: none;
+}
+.sunContainer{
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
+}
+.sunContainer h1{
+    font-family:Style Script;
+    font-size: 70px;
+    overflow: hidden; 
+    margin: 0;
+}
+.sunContainer p{
+    margin: 0;
+    font-family:'Times New Roman';
+    font-size: 30px;
 }
 
 @media screen and (max-width:1024px){
@@ -90,6 +113,7 @@ body{
         z-index: 5;
         top: 0;
         left: 0;
+        display: block;
         background-color:white;
         overflow-x: hidden;
         transition: 1.2s;
@@ -97,6 +121,22 @@ body{
     .closebtn{
         display: none;
     }
-   
+    .sunContainer{
+        color: white;
+        position: absolute;
+        bottom: 10%;
+        left: 10%;
+    }
+    .sunContainer h1{
+        font-family:Style Script;
+        font-size: 50px;
+        overflow: hidden; 
+        margin: 0;
+    }
+    .sunContainer p{
+        margin: 0;
+        font-family:'Times New Roman';
+        font-size: 18px;
+    }
 }
 
