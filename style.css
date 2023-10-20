@@ -87,13 +87,24 @@ body{
     height: 75vh;
 }
 .topSec2{
+    padding: 150px;
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
     z-index: 2;
     height: 75vh;
     width: 50%;
-    background-color: rgba(0, 0, 255, 0.301);
+    background-color: rgba(36, 70, 110, 0.589);
 }
-
+.topSec2 h1{
+    color: orange;
+    margin-bottom: 30px;
+}
+.topSec2 br{
+    margin-bottom: 25px;
+}
 
 /* <!-- ======================SECTION 3======================== --> */
 
