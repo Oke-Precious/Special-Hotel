@@ -76,9 +76,19 @@ body{
     font-family:'Times New Roman';
     font-size: 30px;
 }
-.sec
+.sec3{
+    position: relative;
+    height: 75vh;
+}
 .caroSlideImg{
     height: 75vh;
+}
+.topSec2{
+    position: absolute;
+    z-index: 2;
+    height: 75vh;
+    width: 50%;
+    background-color: rgba(0, 0, 255, 0.301);
 }
 
 
