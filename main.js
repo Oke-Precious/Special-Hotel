@@ -9,6 +9,18 @@ const landingPageScroll=()=>{
     }
     else {}
 }
-// const openOffcanvas =()=>{
-    
-// }
+const openOffcanvas =()=>{
+    document.getElementById("overlayOffcanvas").style.width = "100%";
+    document.getElementById("overlayOffcanvas").style.height = "100%";
+    document.getElementById("overlayOffcanvas").style.opacity = "100%";
+    document.getElementById("closeicon").style.display = "block";
+    document.getElementById("openicon").style.display = "none";
+ }
+ 
+ const closeOffcanvas =()=>{
+    document.getElementById("overlayOffcanvas").style.width = "0";
+    document.getElementById("overlayOffcanvas").style.height = "0";
+    document.getElementById("overlayOffcanvas").style.opacity = "0";
+    document.getElementById("openicon").style.display = "block";
+    document.getElementById("closeicon").style.display = "none";
+ }

@@ -13,7 +13,7 @@ body{
     cursor:pointer;
     top: 0px !important;
     width: 100%;
-    z-index: 10;
+    z-index: 10 !important;
     justify-content: space-around !important;
     color: white;
     background-color: rgba(0, 0, 0, 0);
@@ -81,6 +81,21 @@ body{
     }
     .menus{
         display: none !important;
+    }
+    .overlayOffcanvas{
+        height: 0;
+        opacity: 0;
+        width:0;
+        position: fixed;
+        z-index: 5;
+        top: 0;
+        left: 0;
+        background-color:white;
+        overflow-x: hidden;
+        transition: 1.2s;
+    }
+    .closebtn{
+        display: none;
     }
    
 }
