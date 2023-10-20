@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    /* outline: 1px solid coral; */
+    outline: 1px solid coral;
     padding: 0;
     box-sizing: border-box;
     overflow: hidden;
@@ -76,8 +76,13 @@ body{
         display: none !important;
     }
     .dropContainer{
-        width: 100%;
+        width: 90%;
         height: 150vh;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 4;
+        position: absolute;
         background-color: black;
     }
 }
