@@ -76,7 +76,10 @@ body{
     font-family:'Times New Roman';
     font-size: 30px;
 }
-.sec3{
+
+
+/* <!-- ======================SECTION 2======================== --> */
+.sec2{
     position: relative;
     height: 75vh;
 }
@@ -89,6 +92,15 @@ body{
     height: 75vh;
     width: 50%;
     background-color: rgba(0, 0, 255, 0.301);
+}
+
+
+/* <!-- ======================SECTION 3======================== --> */
+
+.sec3{
+    background-image: linear-gradient(to right, white 50%, rgb(36, 70, 110) 50%);
+    position: relative;
+    height: 75vh;
 }
 
 
