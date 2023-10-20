@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    outline: 1px solid coral;
+    /* outline: 1px solid coral; */
     padding: 0;
     box-sizing: border-box;
     overflow: hidden;
@@ -10,6 +10,7 @@ body{
 }
 .mainNav{
     position: fixed;
+    cursor:pointer;
     top: 0px !important;
     width: 100%;
     z-index: 10;
@@ -29,10 +30,17 @@ body{
     color: white;
     border: solid 2px white;
 }
+.menus p:hover{
+    transition: 300ms;
+    color: orange;
+    border-bottom: solid 2px orange;
+    padding: 10px 0;
+}
 .bookbtn:hover{
+    transition: 3000ms;
     color: white;
-    border:solid 2px rgb(255, 136, 0);
-    background-color: rgb(255, 136, 0);
+    border:solid 2px orange;
+    background-color: orange;
 }
 .sideMenu{
     display: none;
