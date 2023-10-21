@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    outline: 1px solid coral;
+    /* outline: 1px solid coral; */
     padding: 0;
     box-sizing: border-box;
     /* overflow-x: hidden; */
@@ -319,6 +319,7 @@ h1{
         justify-content: center;
     }
     .part2Blue{
+        margin: 50px 0;
         width: 100%;
         text-align: center;
     }
