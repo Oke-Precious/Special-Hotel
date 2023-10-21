@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    /* outline: 1px solid coral; */
+    outline: 1px solid coral;
     padding: 0;
     box-sizing: border-box;
     /* overflow-x: hidden; */
@@ -32,6 +32,14 @@ h1{
     border-radius: 30px;
     color: white;
     border: solid 2px white;
+}
+.readMore{
+    background-color: transparent;
+    padding: 8px 15px;
+    font-weight: bold;
+    border-radius: 30px;
+    color: white;
+    border: solid 1px white;
 }
 .menus p{
     margin: 0 !important;
@@ -90,7 +98,6 @@ h1{
     height: 75vh;
 }
 .topSec2{
-    padding: 150px;
     position: absolute;
     display: flex;
     align-items: center;
@@ -100,6 +107,9 @@ h1{
     height: 75vh;
     width: 50%;
     background-color: rgba(36, 70, 110, 0.700);
+}
+.topSec2 .topSec2part{
+    width: 550px;
 }
 .topSec2 h1{
     color: orange;
@@ -223,6 +233,22 @@ h1{
         margin: 0;
         font-family:'Times New Roman';
         font-size: 18px;
+    }
+
+    /* ========================SECTION 2=========================== */
+    .sec2{
+        height:fit-content;
+    }
+    .topSec2{
+        width:100%;
+        position: relative;
+        text-align: center;
+        background-color: rgb(36, 70, 110);
+        padding: 30px;
+        height:fit-content;
+    }
+    .caroSlideImg{
+        height: 44vh;
     }
 }
 
