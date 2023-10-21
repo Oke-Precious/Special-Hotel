@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    /* outline: 1px solid coral; */
+    outline: 1px solid coral;
     padding: 0;
     box-sizing: border-box;
     /* overflow-x: hidden; */
@@ -144,17 +144,23 @@ h1{
 }
 .part1White{
     display: flex;
-    gap: 20px;
+    position: absolute;
+    right: 37%;
+    top: 27%;
+    gap: 30px;
 }
 .drinkImg{
-    box-shadow: 0 0 10px 2px gray;
-    height: 200px;
-    width: 300px;
-    padding: 20px;
+    box-shadow: 0 0 25px 2px gray;
+    background-color: white;
+    height: 350px;
+    max-width: 450px;
+    padding: 30px;
+    border-radius: 20px;
 }
 .drinkImg img{
     width: 100%;
     height: 100%;
+    border-radius: 20px;
 }
 .part2BlueContainer{
     background-color: rgb(36, 70, 110) ;
@@ -170,7 +176,7 @@ h1{
 .part2Blue{
     text-align: right;
     margin: 0;
-    width: 400px;
+    width: 450px;
 
 }
 .part2Blue h1{
@@ -289,8 +295,23 @@ h1{
         height:max-content;
     }
     .part1WhiteContainer{
-        width: 100%;
-        /* color: white; */
+        width: 100% !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+    .part1White{
+        position: relative;
+        display: block;
+        left:0;
+        top:0; 
+    }
+    .drinkImg{
+        width: 100% !important;
+        margin: 20px 0;
+        height: 100%;
+        padding: 15px;
     }
     .part2BlueContainer{
         width: 100%;
