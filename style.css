@@ -8,6 +8,9 @@
 body{
     position: relative;
 }
+h1{
+    overflow: hidden;
+}
 .mainNav{
     position: fixed !important;
     cursor:pointer;
@@ -34,13 +37,13 @@ body{
     margin: 0 !important;
 }
 .menus p:hover{
-    transition: 300ms;
+    transition: 1000ms;
     color: orange;
     border-bottom: solid 2px orange;
     padding: 10px 0;
 }
 .bookbtn:hover{
-    transition: 3000ms;
+    transition: 1000ms;
     color: white;
     border:solid 2px orange;
     background-color: orange;
@@ -104,6 +107,17 @@ body{
 }
 .topSec2 br{
     margin-bottom: 25px;
+}
+.caroNext{
+    right: 30% !important;
+    color: black !important;
+    font-size: 25px;
+}
+.caroNextBtn{
+    background-color: white !important;
+    padding:10px 20px;
+    border-radius: 50%;
+    opacity: 100%;
 }
 
 /* <!-- ======================SECTION 3======================== --> */
