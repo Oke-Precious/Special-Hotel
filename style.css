@@ -215,6 +215,23 @@ h1{
     justify-content: center;
     
 }
+.food{
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+}
+.food1{
+    background-image: url(asset/food1.jpg);
+}
+.food2{
+    background-image: url(asset/food2);
+}
+.food3{
+    background-image: url(asset/food\ 3);
+}
+
 
 @media screen and (max-width:1024px){
     .mainNav{
