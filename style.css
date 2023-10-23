@@ -224,19 +224,23 @@ h1{
 }
 .food{
     height: 500px;
+    padding: 20px 0;
+    display: flex;
+    align-items: end;
+    justify-content: center;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
 }
 .food1:hover{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.281)), url(asset/food1.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.400)), url(asset/food1.jpg);
 }
 .food2:hover{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.281)), url(asset/food2);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.400)), url(asset/food2);
 }
 .food3:hover{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.281)), url(asset/food\ 3);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.400)), url(asset/food\ 3);
 }
 .food1{
     background-image: url(asset/food1.jpg);
@@ -247,12 +251,23 @@ h1{
 .food3{
     background-image: url(asset/food\ 3);
 }
+.foodItem{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
 .foodItem button{
-    padding: 20px 30px;
+    padding: 15px 25px;
     background-color: transparent;
     border-radius: 50%;
     border: solid 1px white;
     color: white;
+    font-size: 30px;
+}
+.foodItem p{
+    font-weight:500;
     font-size: 30px;
 }
 
