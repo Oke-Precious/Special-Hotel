@@ -213,15 +213,21 @@ h1{
     margin-top: 100px;
     display: flex;
     align-items: center;
+    justify-content: center;  
+    padding: 20px;
+}
+.foodContainer{
+    display: flex;
+    width: 75%;
+    align-items: center;
     justify-content: center;
-    
 }
 .food{
     height: 500px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 460px;
+    width: 100%;
 }
 .food1:hover{
     background-image:linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.281)), url(asset/food1.jpg);
@@ -366,5 +372,12 @@ h1{
     .part2Blue h5{
         font-size:20px;
     }
+
+
+    /* ========================SECTION 4==================== */
+.foodContainer{
+    width: 90%;
+    display: block;
+}
 }
 
