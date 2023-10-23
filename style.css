@@ -247,7 +247,14 @@ h1{
 .food3{
     background-image: url(asset/food\ 3);
 }
-
+.foodItem button{
+    padding: 20px 30px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: solid 1px white;
+    color: white;
+    font-size: 30px;
+}
 
 @media screen and (max-width:1024px){
     .mainNav{
