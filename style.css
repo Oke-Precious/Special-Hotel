@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    outline: 1px solid coral;
+    /* outline: 1px solid coral; */
     padding: 0;
     box-sizing: border-box;
     /* overflow-x: hidden; */
@@ -728,6 +728,7 @@ h1{
         padding: 20px;
         flex-direction: row;
         flex-wrap:wrap;
+        position: relative;
         justify-content: center;
         gap: 20px;
     }
@@ -737,6 +738,7 @@ h1{
     }
     .findMap{
         width: 100%;
+        position: initial;
         text-align: center;
     }
     .mapImg{
@@ -744,9 +746,13 @@ h1{
     }
     .locationContainer{
         position: absolute;
-        right: 39%;
-        text-align: center;
-        top: 0%;
+        right: 15%;
+        text-align: start;
+        top: 35%;
+    }
+    .imglt{
+        width: 80px;
+        margin-left: 65px;
     }
 }
 
