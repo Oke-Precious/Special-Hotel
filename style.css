@@ -440,7 +440,7 @@ h1{
     display: flex;
     gap: 10px;
     width: 75%;
-    height: 100%;
+    height: 500px;
     align-items: center;
     justify-content: center;
 }
@@ -463,7 +463,7 @@ h1{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    height: 500px;
+    height: 100%;
     align-items: center;
     width: 100%;
 }
@@ -483,6 +483,19 @@ h1{
 .fastFood4{
     background-image: url(asset/puff);
 }
+
+/* ==================SECTION 7================= */
+.sec7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mapContainer{
+    width: 75%;
+}
+
+
+
 
 @media screen and (max-width:1024px){
     .mainNav{
