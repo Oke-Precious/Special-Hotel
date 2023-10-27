@@ -39,3 +39,6 @@ const openOffcanvas =()=>{
         mainNav.style.background= "rgba(25, 21, 46, 0.990)";
     }
  }
+ const locationTrigger=()=>{
+    // alert("we are in Ogbomoso")
+ }
