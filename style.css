@@ -15,7 +15,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(36, 70, 110);
+    background-color: rgb(31, 68, 110);
     z-index: 11;
 }
 
