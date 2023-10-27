@@ -559,7 +559,9 @@ h1{
 }
 .locationContainer{
     position: absolute;
-    right: 39%;
+    right: 11%;
+    width: 100%;
+    z-index: 1;
     text-align: center;
     top: 7.5%;
 }
@@ -728,7 +730,7 @@ h1{
         padding: 20px;
         flex-direction: row;
         flex-wrap:wrap;
-        position: relative;
+        /* position: relative; */
         justify-content: center;
         gap: 20px;
     }
@@ -738,7 +740,7 @@ h1{
     }
     .findMap{
         width: 100%;
-        position: initial;
+        position:relative;
         text-align: center;
     }
     .mapImg{
@@ -746,9 +748,13 @@ h1{
     }
     .locationContainer{
         position: absolute;
-        right: 15%;
-        text-align: start;
-        top: 35%;
+        right: 0%;
+        left: 2%;
+        width: 100%;
+        z-index: 1;
+        text-align: center;
+        top: 0%;
+        bottom: 80%;
     }
     .imglt{
         width: 80px;
