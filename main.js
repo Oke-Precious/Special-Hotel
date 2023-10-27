@@ -1,3 +1,6 @@
+const welcome=()=>{
+    loaderContainer.style.display = "none";
+}
 window.onscroll=function(){
     landingPageScroll()
 }
@@ -8,6 +11,7 @@ const landingPageScroll=()=>{
         mainNav.style.background= "rgba(25, 21, 46, 0.900)";
     }
     else {}
+    
 }
 const openOffcanvas =()=>{
     document.getElementById("overlayOffcanvas").style.width = "80%";
