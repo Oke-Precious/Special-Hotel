@@ -514,7 +514,12 @@ h1{
     border: solid 2px rgb(21, 82, 21);
     color: rgb(21, 82, 21);
     font-weight: 700;
+    transition: 300ms;
     background-color: transparent;
+}
+.mapBtn:hover{
+    color: white;
+    background-color: rgb(21, 82, 21);
 }
 .findMap{
     width: 50%;
