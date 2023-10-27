@@ -438,6 +438,7 @@ h1{
 }
 .fastFoodContainer{
     display: flex;
+    gap: 10px;
     width: 75%;
     align-items: center;
     justify-content: center;
@@ -456,7 +457,20 @@ h1{
 .fastFood1{
     background-image: url(asset/strawberry-milk-splash.webp);
 }
+.ffood{
+    height:50%;
+    width:100%;
+    background-position:center;
+    background-repeat:no-repeat
+}
+.fastFood2{
+    background-image: url(asset/fast-food.png);
+}
 .fastFood3{
+    background-image: url(asset/bread.png);
+   
+}
+.fastFood4{
     background-image: url(asset/puff);
 }
 
