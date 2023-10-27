@@ -440,11 +440,12 @@ h1{
     display: flex;
     gap: 10px;
     width: 75%;
+    height: 100%;
     align-items: center;
     justify-content: center;
 }
 .fastFood{
-    height: 500px;
+    height: 100%;
     padding: 20px 0;
     display: flex;
     align-items: end;
@@ -458,17 +459,26 @@ h1{
     background-image: url(asset/strawberry-milk-splash.webp);
 }
 .ffood{
-    height:50%;
-    width:100%;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 500px;
+    align-items: center;
+    width: 100%;
+}
+.fastFood2, .fastFood3{
     background-position:center;
-    background-repeat:no-repeat
+    background-repeat:no-repeat;
+    height:49%;
+    background-size: cover;
+    width: 100%;
 }
 .fastFood2{
     background-image: url(asset/fast-food.png);
 }
 .fastFood3{
     background-image: url(asset/bread.png);
-   
 }
 .fastFood4{
     background-image: url(asset/puff);
@@ -599,10 +609,18 @@ h1{
     }
 
 
-    /* ========================SECTION 4==================== */
-.foodContainer{
-    width: 90%;
-    display: block;
-}
+        /* ========================SECTION 4==================== */
+    .foodContainer{
+        width: 90%;
+        display: block;
+    }
+
+
+    /* ========================SECTION 6==================== */
+    .fastFoodContainer{
+        width: 90%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
 
