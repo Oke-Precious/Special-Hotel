@@ -494,9 +494,9 @@ h1{
 .mapContainer{
     width: 75%;
     display: flex;
-    gap: 20px;
+    /* gap: 40px; */
     align-items: center;
-    height: 55vh;
+    justify-content: space-between;
 }
 .findUs{
     padding: 50px;
@@ -516,7 +516,16 @@ h1{
     font-weight: 700;
     background-color: transparent;
 }
-
+.findMap{
+    width: 50%;
+    height: 100%;
+    text-align: end;
+}
+.findMap img{
+    max-width:650px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 1px rgb(218, 217, 217);
+}
 
 
 @media screen and (max-width:1024px){
