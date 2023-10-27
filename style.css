@@ -3,10 +3,12 @@
     /* outline: 1px solid coral; */
     padding: 0;
     box-sizing: border-box;
+    font-family: Montserrat Alternates;
     /* overflow-x: hidden; */
 }
 body{
     position: relative;
+    
 }
 .loaderContainer{
     width: 100%;
@@ -595,10 +597,14 @@ h1{
     align-items: center;
 }
 .luxury{
-    background-color: rgba(128, 128, 128, 0.329);
+    background-color: rgba(32, 31, 31, 0.329);
     padding: 20px;
     width:100%;
     text-align:center;
+}
+.luxury h1{
+    color:white;
+    font-family:Kaushan Script;
 }
 
 
