@@ -531,14 +531,27 @@ h1{
     border-radius: 20px;
     box-shadow: 0px 0px 15px 1px rgb(218, 217, 217);
 }
-.locationArea{
+.locationContainer{
     position: absolute;
-    right: 55%;
-    top: 45% ;
+    right: 39%;
+    text-align: center;
+    top: 7.5%;
 }
-.locationArea img{
+.imglt{
     width: 100px;
-    
+}
+.locationContainer .ourLocation{
+    visibility: hidden;
+    opacity: 0;
+    width: 100px;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+}
+.locationContainer:hover .ourLocation{
+    visibility: visible;
+    transition: 1000ms ease-out;
+    opacity: 1;
 }
 
 
