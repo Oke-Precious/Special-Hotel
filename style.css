@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    /* outline: 1px solid coral; */
+    outline: 1px solid coral;
     padding: 0;
     box-sizing: border-box;
     font-family: Montserrat Alternates;
@@ -513,9 +513,21 @@ h1{
 } */
 
 /* ==========================SECTION 5=============== */
-.specialScroll{
-    width:80%;
+.sec5{
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
+.scroll-hintContainer{
+    width:75%;
+}
+.specialScroll{
+    width:100%;
+}
+.customerReview{
+    color:rgb(21, 82, 21);
+}
+
 
 
 /* ==================SECTION 7================= */
