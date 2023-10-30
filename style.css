@@ -512,6 +512,12 @@ h1{
     background-image: url(asset/puff);
 } */
 
+/* ==========================SECTION 5=============== */
+.specialScroll{
+    width:80%;
+}
+
+
 /* ==================SECTION 7================= */
 .sec7{
     margin-top: 100px;
@@ -615,6 +621,10 @@ h1{
     border: none;
     border-radius:30px;
     margin-top: 50px;
+    transition: 1000ms;
+}
+.luxury button:hover{
+    background-color: orange;
 }
 
 
