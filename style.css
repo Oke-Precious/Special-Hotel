@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    /* outline: 1px solid coral; */
+    outline: 1px solid coral;
     padding: 0;
     box-sizing: border-box;
     font-family: Montserrat Alternates;
@@ -440,6 +440,7 @@ h1{
 }
 .scroll-hintContainer{
     width:75%;
+    height: 50vh;
 }
 .specialScroll{
     width:100%;
@@ -458,8 +459,16 @@ h1{
     text-decoration: none;
     color: #C4983F;
     font-weight: 500;
+    font-family:sans-serif;
 }
-
+.specialScroll h5{
+    color: #C4983F;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.specialScroll h6{
+    color:rgb(2, 114, 58);
+}
 
 
 
