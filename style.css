@@ -469,7 +469,9 @@ h1{
 .specialScroll h6{
     color:rgb(2, 114, 58);
 }
-
+.specialSec5{
+    display: none;
+}
 
 
 
@@ -623,8 +625,25 @@ h1{
     width: 100%;
     height:35vh;
     background-color: rgb(63, 63, 63);
+    display: flex;
+    justify-content: center;
+}
+.footerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerLogo{
+    width: 300px;
+}
+.quickLinks{
+    font-weight: bolder;
+    color:#2DB9D4;
 }
 
+.lastSec li a{
+    color: white;
+}
 @media screen and (max-width:1024px){
     .mainNav{
         padding: 20px !important;
@@ -756,7 +775,19 @@ h1{
         display: block;
     }
 
-
+    /* =====================SECTION 5=================== */
+    .scroll-hintContainer{
+        width:95%;
+    }
+    .sec5{
+        display: none;
+    }
+    .specialSec5{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   
     /* ========================SECTION 6==================== */
     .fastFoodContainer{
         width: 90%;
