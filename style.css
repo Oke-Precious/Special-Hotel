@@ -627,10 +627,11 @@ h1{
     background-color: rgb(63, 63, 63);
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .footerContainer{
     display: flex;
-    align-items: center;
+    gap: 100px;
     justify-content: center;
 }
 .footerLogo{
@@ -638,11 +639,14 @@ h1{
 }
 .quickLinks{
     font-weight: bolder;
+    margin-bottom: 30px;
     color:#2DB9D4;
 }
 
-.lastSec li a{
+.lastSec p a{
     color: white;
+    text-decoration: none;
+    font-size: 14px;
 }
 @media screen and (max-width:1024px){
     .mainNav{
