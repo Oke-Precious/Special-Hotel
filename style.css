@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    outline: 1px solid coral;
+    /* outline: 1px solid coral; */
     padding: 0;
     box-sizing: border-box;
     font-family: Montserrat Alternates;
@@ -430,57 +430,33 @@ h1{
     font-size: 30px;
 }
 
-/* ==========================SECTION 6========================== */
- .sec6{
-    margin-top: 100px;
-    /* display: flex; */
-    align-items: center;
-    height: 500px;
-    justify-content: center;  
-    padding: 20px;
+
+
+/* ==========================SECTION 5=============== */
+.sec5{
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
-.fastFoodContainer{
-    display: flex;
-    gap: 10px;
-    width: 75%;
-    height: 500px;
-    align-items: center;
-    justify-content: center;
+.scroll-hintContainer{
+    width:75%;
+}
+.specialScroll{
+    width:100% !important;
+    box-shadow: 0 0 10px 2px gray !important;
+    /* background-color: red; */
+}
+.customerReview{
+    color:rgb(21, 82, 21);
 }
 
-.fastFood{
-    height: 100%;
-    padding: 20px 0;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-}
-.fastFood1{
-    background-image: url(asset/strawberry-milk-splash.webp);
-}
-.ffood{
-    flex-direction: row;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    height: 100%;
-    align-items: center;
-    width: 100%;
-}
-.fastFood2, .fastFood3{
-    background-position:center;
-    background-repeat:no-repeat;
-    height:49%;
-    background-size: cover;
-    width: 100%;
-}
-.fastFood2{
-    background-image: url(asset/fast-food.png);
-}
-.fastFood3{
-    background-image: url(asset/bread.png);
-}
+
+
+
+
+
+/* ==========================SECTION 6========================== */
+
 /*
 
 .fastFood1{
@@ -511,22 +487,6 @@ h1{
 .fastFood4{
     background-image: url(asset/puff);
 } */
-
-/* ==========================SECTION 5=============== */
-.sec5{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-}
-.scroll-hintContainer{
-    width:75%;
-}
-.specialScroll{
-    width:100%;
-}
-.customerReview{
-    color:rgb(21, 82, 21);
-}
 
 
 
