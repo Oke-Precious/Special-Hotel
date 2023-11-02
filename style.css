@@ -640,6 +640,7 @@ h1{
 .quickLinks{
     font-weight: bolder;
     margin-bottom: 30px;
+    text-align: center;
     color:#2DB9D4;
 }
 
@@ -648,8 +649,12 @@ h1{
     text-decoration: none;
     font-size: 14px;
 }
+.lastSpart{
+    text-align: center;
+}
 .contactInfo{
     color: white;
+    display: flex;
     gap: 15px;
     cursor: pointer;
     margin-bottom: 15px;
@@ -885,6 +890,20 @@ h1{
         width: 100%;
         text-align: center;
     }
-
+    .quickLinks{
+        width: 100%;
+    }
+    .contactInfo button{
+        margin-bottom: 10px;
+    }
+    .contactInfo{
+        color: white;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        cursor: pointer;
+        margin-bottom: 25px;
+    }
 }
 
