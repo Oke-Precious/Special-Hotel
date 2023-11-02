@@ -626,7 +626,7 @@ h1{
     background-color: rgb(63, 63, 63);
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding:100px 20px;
     align-items: center;
 }
 .footerContainer{
@@ -676,7 +676,13 @@ h1{
     border-radius:50%;
     
 }
-
+.newsletterInputParentContainer{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-items:left;
+    justify-content:center;
+}
 .newsletterInputContainer{
     text-align: center;
     position: relative;
