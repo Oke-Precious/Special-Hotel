@@ -650,10 +650,26 @@ h1{
 }
 .contactInfo{
     color: white;
+    gap: 15px;
+    cursor: pointer;
+    margin-bottom: 15px;
 }
-.contactInfo i{
-    padding: 10px;
-    color
+.contactInfo:hover.contactInfo button{
+    background-color: #C4983F;
+    transition: 1000ms;
+}
+.contactInfo:hover.contactInfo p{
+    color: #C4983F;
+    transition: 1000ms;
+}
+.contactInfo button{
+    height: 30px;
+    width: 30px;
+    color: white;
+    background-color: #2DB9D4;
+    border: none;
+    border-radius:50%;
+    
 }
 @media screen and (max-width:1024px){
     .mainNav{
