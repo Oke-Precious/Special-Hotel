@@ -43,4 +43,3 @@ const openOffcanvas =()=>{
 //  const eraseMap=()=>{
 //     document.getElementById("ourLocation").style.display = "none";
 //  }
- 

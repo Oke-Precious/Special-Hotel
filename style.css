@@ -710,10 +710,26 @@ h1{
     border-radius: 30px;
     border: none;
 }
-
-
-
-
+.newsletterInputContainer button:hover{
+    background-color:#C4983F;
+    transition: 1000ms;
+}
+.socialMediaIcons{
+    display: flex;
+    gap: 20px;
+}
+.socialMediaIcons button{
+    background-color:#2DB9D4 ;
+    color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    border: none;
+}
+.socialMediaIcons button:hover{
+    background-color:#C4983F;
+    transition: 1000ms;
+}
 
 
 
